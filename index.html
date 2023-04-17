@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Filtro </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="lista.css">
+    
+</head>
+<body class="py-5">
+    <div class="container px-4 formBody">
+        <div class="input-group-text mb-3">
+            <span class="input-group-text" >LISTA</span>
+            <div class="text-center" id="img-topo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5458/5458405.png" class = "img-fluid mt-2 mb-3" alt="IFPR" width="200px">
+            </div>
+            <input type="text" id="searchField" class="form-control" placeholder="Pesquise">
+        </div>
+    <div class="botoes text-center">
+        <button id="add" class="btn btn-outline-dark" >Adicionar</button>
+        <button id="sel" class="btn btn-outline-dark">Selecionar</button>
+        <button id="rel" class="btn btn-outline-dark">Remover</button>
+        <button id="Filtrar" class="btn btn-outline-dark">Filtrar</button>
+    </div>    
+    
+        <pre class="paragraph text-center text-dark" id="saida"></pre>
+        <ul id="list" class="list-group list-group-flush">
+            <input class="form-check-input" type="checkbox">
+        </ul>
+
+        <div class="container text-center footer">
+            <p> Development Thiago &copy;</p>
+        </div>
+    </div>
+    
+    
+    <script src="lista.js"></script>
+    
+</body>
+</html>
